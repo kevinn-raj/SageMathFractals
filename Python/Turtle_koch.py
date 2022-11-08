@@ -1,5 +1,4 @@
 from turtle import Turtle
-from turtle import Screen
 import turtle
 import numpy as np
 
@@ -18,13 +17,6 @@ d = t.screen.window_width()/(3**iterations)/2
 axiom = "F--F--F"
 pathStr = axiom
 ruleF = "F+F--F+F"
-
-# for i in range(iterations):
-#     temp = ""
-#     for s in pathStr:
-#         temp.replace_lttr(s)
-
-
 
 t.speed(0);turtle.delay(0)
 t.penup()
@@ -46,5 +38,4 @@ for s in pathStr:
         t.right(angle)
         # t.rt()  
 
-t.getscreen().getcanvas().postscript(file="NiceHexSpiral.eps")
 turtle.exitonclick()
