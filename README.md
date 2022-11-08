@@ -1,2 +1,2 @@
 # SageMathFractals
-You will find different SageMath files (notebooks) for different fractals drawings
+You will find different SageMath (Jupyter notebooks) and Python files  for different fractals drawings.
